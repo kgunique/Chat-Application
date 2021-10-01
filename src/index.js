@@ -9,17 +9,7 @@ import configureStore from './store';
 
 const store = configureStore({},{});
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDO_8DQtMQIuVqYXXfwloylKyyAqihVi6o",
-  authDomain: "messenger-4e353.firebaseapp.com",
-  projectId: "messenger-4e353",
-  storageBucket: "messenger-4e353.appspot.com",
-  messagingSenderId: "663880612733",
-  appId: "1:663880612733:web:166fdd44f5c938684e2a14",
-  measurementId: "G-NG38CLW9RF"
-};
-
-const app = initializeApp(firebaseConfig);
+// Firebase configuration goes here
 
 
 
